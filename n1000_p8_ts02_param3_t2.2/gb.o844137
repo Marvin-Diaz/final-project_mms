@@ -1,0 +1,66 @@
+Loading lammps/23Jun22/intel/19.0
+  Loading requirement: intel/19.0 mpich/3.3/intel/19.0
+LAMMPS (23 Jun 2022)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 4.6415888 4.6415888 4.6415888
+Created orthogonal box = (0 0 0) to (46.415888 46.415888 46.415888)
+  3 by 2 by 4 MPI processor grid
+Created 2000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (46.415888 46.415888 46.415888)
+  create_atoms CPU = 0.047 seconds
+Setting atom values ...
+  94 settings made for type/fraction
+Setting atom values ...
+  1906 settings made for mass
+Setting atom values ...
+  94 settings made for mass
+Setting atom values ...
+  1906 settings made for shape
+Setting atom values ...
+  94 settings made for shape
+Setting atom values ...
+  2000 settings made for quat/random
+1906 atoms in group spheroid
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- pair gayberne command:
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 4.8
+  ghost atom cutoff = 4.8
+  binsize = 2.4, bins = 20 20 20
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair gayberne, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.002
+Per MPI rank memory allocation (min/avg/max) = 6.916 | 6.916 | 6.917 Mbytes
+   Step         c_rot          E_pair         TotEng         Press          Volume    
+         0   1.4261593      0              3.5982         0.047976       100000       
+      1000   1.7669573     -0.63407351     3.2243661      0.037666921    115746.6     
+      2000   1.4923519     -0.71622044     2.1572777      0.017504539    170245.01    
+      3000   1.6743073     -0.54022243     2.2906463      0.011509274    293605.68    
+      4000   1.5328614     -0.42062085     1.8575491      0.0054734987   502573.11    
+      5000   1.6970837     -0.35962153     2.0260756      0.0045417358   614391.17    
+      6000   1.5128303     -0.39172173     1.9785761      0.0066517605   407058.12    
+      7000   1.6521289     -0.76485369     2.3047543      0.021569232    171350.24    
+      8000   1.550889      -1.62168        1.4256024      0.040672371    64471        
+      9000   1.6328279     -4.3453228     -1.2468697      0.077152547    25838.819    
+     10000   1.5604176     -10.828263     -7.9229946     -0.10908059     10995.852    
+     11000   1.6046839     -19.311905     -16.345795     -0.22010096     4682.1023    
+     12000   1.5738284     -27.938993     -24.979802      12.271738      2259.0078    
+     13000   1.6333342     -24.584221     -21.88518      -4.5792621      2792.6797    
+     14000   1.5670015     -26.567294     -23.983307     -0.089716008    2662.5039    
