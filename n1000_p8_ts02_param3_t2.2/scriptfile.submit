@@ -1,5 +1,5 @@
 #!/bin/csh
-#$ -M emarinri@nd.edu
+#$ -M mdiazseg@nd.edu
 #$ -m abe
 #$ -r n
 #$ -N gb
